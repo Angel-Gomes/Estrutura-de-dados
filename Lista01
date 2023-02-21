@@ -1,0 +1,15 @@
+#1-Criar uma lista com 10 números inteiros aleatórios e imprimir o maior e o menor número da lista.
+
+L = [5, 4, 8, 1, 9, 3, 6, 2, 7, 10]
+print(f'O menor número da lista é {min(L)}.')
+print(f'O maior número da lista é {max(L)}.')
+
+print('~'*50)
+
+#or
+
+l = [5, 4, 8, 1, 9, 3, 6, 2, 7, 10]
+s = sorted(l)
+
+print(f'O menor número da lista é {s[0]}.')
+print(f'O maior número da lista é {s[-1]}.')
